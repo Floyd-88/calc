@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+
+<body id="main">
+
+<div class="form0">
+  <div class="form1">
+     <input type="text" value="" placeholder="0" class="num" id="a">
+     <input type="text" value="" class="num2" id="mathematicalOperator">
+     <input type="text" value="" placeholder="0" class="num" id="b">
+     <input type="text" value="" class="result" id="result">
+  </div>
+
+  <div class="form2"> 
+     <button id="get">=</button>
+
+  </div>
+
+  <div class="form3">
+     <button class="operand_1" value = "+" onclick="operand(this)">+</button>
+     <button class="operand_1" value = "-" onclick="operand(this)">-</button>
+     <button class="operand_1" value = "*" onclick="operand(this)">*</button>
+     <button class="operand_1" value = "/" onclick="operand(this)">/</button> <br>
+     <button id="reset">C</button>
+   </div>
+</div>
+
+<script src="calc.js"></script>
+</body>
+</html>
